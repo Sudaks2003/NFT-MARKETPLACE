@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NFT Marketplace</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>NFT Marketplace</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#explore">Explore</a></li>
+          <li><a href="#create">Create</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Discover, collect, and sell extraordinary NFTs</h2>
+      <p>World’s first and largest digital marketplace for crypto collectibles and NFTs.</p>
+      <a href="#explore" class="btn">Explore Now</a>
+    </div>
+  </section>
+
+  <section id="explore" class="gallery">
+    <div class="container">
+      <h2>Trending NFTs</h2>
+      <div class="nft-grid">
+        <div class="nft-card">
+          <img src="images/nft1.jpg" alt="NFT 1">
+          <h3>Cyber Ape</h3>
+          <p>Price: 2.5 $</p>
+        </div>
+        <div class="nft-card">
+          <img src="images/nft2.jpg" alt="NFT 2">
+          <h3>Pixel Warrior</h3>
+          <p>Price: 1.2 $</p>
+        </div>
+        <div class="nft-card">
+          <img src="images/nft3.jpg" alt="NFT 3">
+          <h3>Funky Robot</h3>
+          <p>Price: 3.1 $</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="create" class="create">
+    <div class="container">
+      <h2>Create Your NFT</h2>
+      <form id="createForm">
+        <input type="text" id="nftName" placeholder="NFT Name" required />
+        <input type="text" id="nftPrice" placeholder="NFT Price (e.g., 1.5 $)" required />
+        <input type="file" id="nftImageFile" accept="image/*" required />
+        <button type="submit" class="btn">Add NFT</button>
+      </form>
+    </div>
+    <div class="container">
+      <h2>Create Your NFT</h2>
+      <p>Upload your artwork and mint your first NFT in minutes.</p>
+      <button onclick="alert('Minting feature coming soon!')" class="btn">Start Creating</button>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; Sudakshina Chakraborty 2025 NFT Marketplace. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
